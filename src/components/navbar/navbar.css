@@ -1,0 +1,58 @@
+.btns {
+    align-items: center;
+    text-align: center;
+    border-width: 10px;
+    border-color: white;
+    margin: 10px auto;
+    padding: 0px;
+    width:90%;
+}
+
+.btns-bar::after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 70%;
+    /* min-width: 1075px; */
+}
+
+.about-btn, .home-btn, .projects-btn, .resume-btn {
+    margin:5px;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 3px;
+    height:80px;
+    width:80px;
+    cursor: pointer;
+    color: white;
+    background-color: #171B26;
+}
+
+.home-btn {
+    border-color:#FFA1AC;
+}
+
+.projects-btn {
+    border-color:#FFA936;
+}
+
+.resume-btn {
+    border-color:#FF3D56;
+}
+
+.about-btn {
+    border-color:#FCDD47;
+}
+
+@media (min-width: 600px) and (max-width: 1075px) {
+
+
+  }
+
+  @media (min-width: 600px) and (max-width: 1075px) {
+
+
+  }
